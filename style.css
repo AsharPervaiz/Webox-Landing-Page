@@ -1,0 +1,270 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+a{
+    text-decoration: none;
+}
+ 
+.logo{
+    font-size: 40px !important;
+}
+.header{
+    height: 100vh;
+    width: 100%;
+    background-image:linear-gradient(rgba(0,128,250,0.6) , rgba(0,128,250,0.6))  , url('pexels-ovan-62689.jpg');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    clip-path: polygon(50% 0%, 100% 0, 99% 87%, 50% 100%, 0 88%, 0 0);
+}
+
+.navbar{
+    background-color:rgba(0,128,250,0.3) ;
+}
+.nav-item a{
+    color: white;
+}
+
+.header-section{
+    color: white;
+    text-align: center;
+}
+
+.main-hading{
+    width: 100%;
+    height: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.content-1{
+    font-size: 80px;
+}
+.content-2 {
+    font-size: 50px;
+}
+.header-buttons a{
+    color: white;
+    text-decoration: none;
+    border: 2px solid white;
+    margin: 10px 10px;
+    padding: 12px 20px;
+    border-radius: 20px;
+    font-size: 20px;
+}
+.header-buttons a:hover{
+    color: rgb(0, 0, 0);
+    background-color: white;
+    text-decoration: none;
+    border: 2px solid white;
+    padding: 12px 20px;
+    border-radius: 20px;
+    font-size: 20px;
+}
+/***header end****/
+
+.three-div{
+    margin:80px 0px;
+    width: 100%;
+    height: auto;
+    text-align: center;
+}
+.for-box{
+   background: white;
+   border: medium none;
+    border-radius: 3px;
+   
+   padding: 50px !important;
+   transition: 0.3s;
+}
+.for-box:hover{
+    
+    box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.3);
+    transform: translateY(-20px);
+   
+ }
+/***three div end****/
+
+ .services{
+    width: 100%;
+    height: auto;
+    margin:80px 0px;
+    padding: 100px 0px;
+    background-color: rgba(228, 218, 218, 0.151);
+ }
+ .what{
+    font-size: 50px;
+ }
+
+ .service-heading{
+    margin-bottom: 50px;
+ }
+ .little{
+    margin: 35px;
+ }
+ .little i{
+    color: #0A58CA;
+ }
+
+/***what we offer end****/
+
+ .projects{
+    margin: 100px 0px;
+ }
+ .wrap{
+    margin-top: 100px;
+ }
+
+
+
+ 
+
+
+ .pricing{
+    width: 100%;
+    height: auto;
+    margin: 80px 0px;
+    padding: 80px 0px;
+    background-color: #0A58CA;
+    clip-path: inset(0 0 0 0 round 5% 20% 0 10%);
+    
+ }
+ .no {
+    font-size: 50px;
+ }
+ .price-box{
+    margin-top: 60px;
+ }
+
+ .pricing-buttons{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    border: 2px solid rgb(0, 0, 0);
+    margin: 10px 10px;
+    padding: 6px 18px;
+    border-radius: 20px;
+    font-size: 20px;
+}
+.pricing-buttons:hover{
+    color: rgb(255, 255, 255);
+    background-color: #198754;
+    text-decoration: none;
+    border: 2px solid #198754;
+    padding: 8px 18px;
+    border-radius: 20px;
+    font-size: 20px;
+}
+.card-box:hover{
+    transition: 0.3s;
+    transform: translateY(-20px);
+}
+.card-body li{
+    font-size: 20px;
+}
+.card-box{
+    border: 2px solid black;
+    border-radius: 15px !important;
+    border: 1px solid rgb(255, 255, 255) !important;
+    box-shadow: 4px 4px 10px 0px #888 !important;
+}
+
+
+.card-box li{
+    color: #0A58CA!important;
+}
+/***what we offer end****/
+
+
+
+.clients{
+    
+    width: 100%;
+    height: auto;
+    margin: 100px 0px;
+}
+
+.pmg{
+    margin: 20px 20px;
+}
+.box{
+    
+    text-align: center;
+
+    padding: 30px;
+    border: 1px solid rgb(255, 255, 255);
+    box-shadow: 4px 4px 10px 0px #888;
+
+}
+.box:hover{
+    background-color: #0A58CA;
+}
+
+.box img{
+    border-radius: 50%;
+    margin: 30px 0px;
+}
+.client-slide{
+    margin-top: 50px;
+}
+/***what we offer end****/
+
+.contact{
+    width: 100%;
+    height: 100vh;
+    margin: 100px 0px;
+    padding: 100px 0px;
+    background:linear-gradient(160deg,  white 55%, #0A58CA 0% );
+}
+
+
+
+
+
+
+.newsletter{
+    width: 100%;
+    height: auto;
+    margin: 80px 0px;
+}
+.news-input{
+    padding: 20px 10px!important;
+    border-radius: 100px 0px 0px 100px!important;
+}
+.news-btn{
+    border-radius: 0px 100px 100px 0px!important;
+
+}
+.news-btn:hover{
+    background-color: #0A58CA!important;
+}
+
+
+
+
+
+
+
+
+
+.footer{
+    width: 100%;
+    height: auto;
+    margin-top: 80px;
+    padding: 30px 0px;
+    color: white;
+    background-color: #0A58CA;
+}
+#my-btn{
+    
+color: white;
+background-color: #888;
+padding: 10px;
+margin: 20px;
+position: fixed;
+bottom: 20px;
+right: 40px;
+z-index: 99;
+}
